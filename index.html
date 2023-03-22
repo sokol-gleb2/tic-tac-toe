@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    
+
+    <header>
+        <div class="turn red">
+            Red's Turn
+        </div>
+    </header>
+
+    <div class="board">
+        <div class="square border" pos="top-left" active="true" color=""></div>
+        <div class="square border" pos="top-mid" active="true" color=""></div>
+        <div class="square border" pos="top-right" active="true" color=""></div>
+        <div class="square border" pos="left-mid" active="true" color=""></div>
+        <div class="square" pos="mid" active="true" color=""></div>
+        <div class="square border" pos="right-mid" active="true" color=""></div>
+        <div class="square border" pos="bottom-left" active="true" color=""></div>
+        <div class="square border" pos="bottom-mid" active="true" color=""></div>
+        <div class="square border" pos="bottom-right" active="true" color=""></div>
+    </div>
+
+    <div class="winner"></div>
+
+    <button class="clear-button" type="button" onclick="clean()">Clear</button>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
